@@ -1,0 +1,284 @@
+# Site
+repository: briankwak810/briankwak810.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jaesuk Kwak
+title: B.S. Student @ Seoul National University · Physical AI for Surgery
+email: brian.j.kwak@gmail.com
+phone: +82-10-4196-3769
+website: https://briankwak810.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: briankwak810
+linkedin_username: jaesuk-kwak
+# googlescholar_username:
+# orcid_username:
+
+# Additional icon links
+additional_links:
+- title: SNU Email
+  icon: fas fa-envelope
+  url: mailto:kjsbrian@snu.ac.kr
+- title: CV (PDF)
+  icon: fas fa-file-pdf
+  url: /files/Jaesuk_Kwak_CV.pdf
+
+# About Section
+about_title: About
+about_profile_image: images/profile.svg
+about_content: | # this will include new lines to allow paragraphs
+  I'm a B.S. student in **Electrical and Computer Engineering** at **Seoul National University**, currently working at a stealth startup on **physical AI for surgery**. Before that I was a research intern at the [SNU Computational Neuroscience Lab](https://sites.google.com/snu.ac.kr/snucnl/home) (advised by Prof. Jeehyun Kwag) and the [SNU Computer Vision Lab](https://cv.snu.ac.kr/) (advised by Prof. Bohyung Han).
+
+  My research centers on building **surgical and embodied AI systems** that scale neural technologies — from brain–computer interfaces to intelligent neurosurgical platforms. I'm drawn to systems that have to work reliably under **high-precision, safety-critical** conditions, where ideas meet physical reality.
+
+  I think the next decade of neural tech will be bottlenecked less by what we can theorize, and more by what we can repeatably and safely build. So I spend most of my time on the boundary between **reinforcement learning, computer vision, and computational neuroscience** — the messy edge where data-efficient learning, dexterous manipulation, and neural decoding/modulation come together.
+
+  Outside research I helped lead engineering outreach at SNU, taught STEM to high schoolers, and was awarded the Presidential Science Scholarship and the Chief of Naval Operations Award at the ROK MND Startup Competition.
+
+content:
+  - title: News
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **2026.01** &nbsp; Joined a stealth startup working on physical AI for surgery.
+      - **2025.09** &nbsp; Accepted as a Student Volunteer for **CoRL 2025**, Seoul.
+      - **2025.09** &nbsp; Released open-source RL fine-tuning pipeline for navigation foundation models in `Habitat-sim`.
+      - **2025.06** &nbsp; Awarded the **Chief of Naval Operations Award** (Top 1% of 440 teams) at the ROK MND Startup Competition.
+      - **2024.09** &nbsp; *Certificate of Excellence*, SNU College of Cognitive and Brain Sciences (BCS 2024 Summer Workshop).
+      - **2024.09** &nbsp; Began mandatory military service (ROK Army, Signals Specialist, Defence Security Agency).
+
+  - title: Research
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Fine-tuning Navigation Models with Policy Optimization unveils Internal Planners
+        caption: March 2025 – September 2025
+        sub_title: Deep RL · Navigation Foundation Models · Diffusion Policy
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        quote: >
+          Can policy optimization expose latent planning structure inside large navigation foundation models?
+        description: | # this will include new lines to allow paragraphs
+          Open-sourced a headless data processing, evaluation, and teleoperation pipeline for ROS-based agents in `Habitat-sim`. Contributed a novel approach to RL training of diffusion-policy based navigation models, surfacing internal planner-like representations under fine-tuning.
+
+      - layout: left
+        border: weak
+        title: Network Topology of Boundary Vector Cells in Mouse Retrosplenial Cortex
+        caption: June 2024 – August 2024
+        sub_title: Contrastive Learning · Spatial Navigation · TDA
+        additional_links:
+          - title: Report (PDF)
+            icon: fas fa-file-pdf
+            url: /files/projects/Neural_topology_in_rsc_with_PV_interneurons.pdf
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        quote: >
+          How do Parvalbumin interneurons reshape the topology of spatial codes in the brain?
+        description: | # this will include new lines to allow paragraphs
+          Studied how PV interneurons inhibit and modulate network topology in the retrosplenial cortex using contrastive representation learning over calcium imaging data. Awarded **1st place** in the 2024 Poster Presentation Session by the SNU College of Cognitive Sciences.
+
+      - layout: left
+        border: weak
+        title: Neural Topology Analysis — Visualizing Network Topology from Calcium Images
+        caption: June 2024 – August 2024
+        sub_title: Contrastive Learning · Calcium Imaging
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        description: | # this will include new lines to allow paragraphs
+          End-to-end open-source pipeline for extracting and visualizing topological structure directly from raw calcium imaging recordings.
+
+      - layout: left
+        border: weak
+        title: Novel View Refinement via Attention Fusion
+        caption: March 2024 – June 2024
+        sub_title: 3D Computer Vision · Stable Diffusion
+        additional_links:
+          - title: Report (PDF)
+            icon: fas fa-file-pdf
+            url: /files/projects/Novel_View_Refinement_via_Attention_Fusion.pdf
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        quote: >
+          Can attention fusion across views recover what a single-view generator can't?
+        description: | # this will include new lines to allow paragraphs
+          Open-sourced *Novel View Refinement*, a method that generates unseen object views by fusing attention layers across a diffusion backbone. Companion repo: open-sourced fine-tuning code for SV3D, the baseline used in this work.
+
+      - layout: left
+        border: weak
+        title: "IMG-PFGM: Diffusion Models as Image-Charge Models"
+        caption: June 2023 – February 2024
+        sub_title: Diffusion Models · Electromagnetics
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        quote: >
+          What if diffusion models are quietly minimizing electrostatic energy between two charge distributions?
+        description: | # this will include new lines to allow paragraphs
+          Proposed a novel interpretation of diffusion models as minimizing total energy of electric fields between two charge distributions, and validated the framing on a toy model.
+
+      - layout: left
+        border: weak
+        title: Non-invasive Optogenetics with Ultrasonic Waves & Sonoactive Nanoparticles
+        caption: December 2023 – February 2024
+        sub_title: Optogenetics · Non-invasive Neurotech
+        additional_links:
+          - title: Proposal (PDF)
+            icon: fas fa-file-pdf
+            url: /files/projects/Noninvasive_optogenetics_with_sonoactive_nanoparticles.pdf
+        quote: >
+          A path toward human-compatible optogenetics that doesn't require a craniotomy.
+        description: | # this will include new lines to allow paragraphs
+          Proposed a non-invasive optogenetics approach combining focused ultrasound and sonoactive nanoparticles. **1st place** in a non-invasive surgery business competition hosted by SNU Department of ECE.
+
+  - title: Selected Projects & Open Source
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: ROK Ministry of Defense Startup Competition
+        caption: March 2025 – September 2025
+        sub_title: Group lead — three open-sourced projects
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        description: | # this will include new lines to allow paragraphs
+          Awarded the **Chief of Naval Operations Award** (Top 1% of 440 teams). As group lead, open-sourced project code and backends for three concepts:
+
+          - **[Mango](/files/projects/Mango.pdf)** — AI psychological care for military personnel.
+          - **[POLARIS](/files/projects/Polaris.pdf)** — RL-based real-time localization for mobile swarm drones.
+          - **[Milimeter](/files/projects/Milimeter.pdf)** — A map service that makes military benefits more accessible.
+
+      - layout: left
+        border: weak
+        title: Sigma Intelligence Mobile Application
+        caption: December 2022 – March 2023
+        sub_title: NodeJS · Svelte
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/briankwak810
+        description: | # this will include new lines to allow paragraphs
+          Frontend team lead for the in-house mobile application of Sigma Intelligence, an SNU ECE–affiliated group. Reached around **300 closed-beta users**.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Stealth Startup
+        sub_title: Physical AI for Surgery
+        caption: January 2026 – Present
+        description: | # this will include new lines to allow paragraphs
+          Building physical AI systems for high-precision, safety-critical surgical environments.
+
+      - layout: right
+        title: Republic of Korea Army
+        sub_title: Mandatory Military Service · Signals Specialist
+        caption: September 2024 – March 2026
+        description: | # this will include new lines to allow paragraphs
+          Defence Security Agency, Republic of Korea.
+
+      - layout: right
+        title: SNU Computational Neuroscience Lab
+        sub_title: Research Intern · Advisor — Prof. Jeehyun Kwag
+        caption: January 2024 – September 2024
+        link: https://sites.google.com/snu.ac.kr/snucnl/home
+        description: | # this will include new lines to allow paragraphs
+          Research at the intersection of contrastive representation learning, topological data analysis, and circuit-level neuroscience.
+
+      - layout: right
+        title: SNU Computer Vision Lab
+        sub_title: Research Intern · Advisor — Prof. Bohyung Han
+        caption: July 2023 – January 2024
+        link: https://cv.snu.ac.kr/
+        description: | # this will include new lines to allow paragraphs
+          Work on 3D computer vision and diffusion-based novel view synthesis at SNU Samsung R&D Center.
+
+      - layout: right
+        title: Sigma Intelligence
+        sub_title: Frontend Team Lead
+        caption: December 2022 – March 2023
+        description: | # this will include new lines to allow paragraphs
+          Led the frontend team for an SNU ECE–affiliated startup, shipping a mobile app used by ~300 closed-beta users.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Seoul National University
+        sub_title: B.S. in Electrical & Computer Engineering
+        caption: March 2022 – Expected February 2027
+        description: | # this will include new lines to allow paragraphs
+          GPA: **4.14 / 4.30**.
+
+      - layout: top-right
+        title: Seoul Science High School (31st Class)
+        sub_title: Secondary Education
+        caption: March 2019 – February 2022
+        description: | # this will include new lines to allow paragraphs
+          GPA: **4.23 / 4.30** (Top 10% in cohort). Admitted one year early.
+
+  - title: Honors, Awards & Scholarships
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Chief of Naval Officers Award**, ROK Ministry of Defence Startup Competition — *June 2025* (Top 1% of 440 teams, project *Milimeter*).
+      - **Certificate of Excellence**, Chair of SNU College of Cognitive and Brain Sciences — *September 2024* (BCS 2024 Summer Workshop).
+      - **Specialized Semiconductor Program Scholarship**, SNU Semiconductor Program — *January 2024*.
+      - **Presidential Science Scholarship**, Korea Student Aid Foundation — *May 2022*.
+
+  - title: Service & Outreach
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Student Volunteer**, *CoRL 2025*, Seoul — selected (60 of all applicants).
+      - **Lead Organizer**, 24w GongDream Engineering Contest (SNU SENS, funded by DB Group & SNU College of Engineering) — Jan–Feb 2024.
+      - **Lead Organizer**, 23s SNU Engineering Contest (SNU SENS) — Jul–Aug 2023.
+      - **STEM Educator**, Engineering Outreach Program (SNU SENS) — Jan–Feb 2023.
+
+  - title: Skills & Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Research areas.** Computer Vision · Reinforcement Learning · Computational Neuroscience · Cognitive Science · Physical AI · Diffusion Models · Embodied AI.
+
+      **Programming.** Python · C++ · Java · Svelte.
+
+      **Languages.** English (TOEFL 112/120, TOEIC 985/990) · Korean (native).
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-remote-theme
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  ]

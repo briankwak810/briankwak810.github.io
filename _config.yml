@@ -22,13 +22,13 @@ linkedin_username: jaesuk-kwak
 # orcid_username:
 
 # Additional icon links
+# Note: this theme's additional_links template prepends `//` to URLs missing
+# `http`. Use absolute https://… URLs here (mailto: must stay on the main
+# `email:` field above, which renders correctly).
 additional_links:
-- title: SNU Email
-  icon: fas fa-envelope
-  url: mailto:kjsbrian@snu.ac.kr
 - title: CV (PDF)
   icon: fas fa-file-pdf
-  url: /files/Jaesuk_Kwak_CV.pdf
+  url: https://briankwak810.github.io/files/Jaesuk_Kwak_CV.pdf
 
 # About Section
 about_title: About
@@ -78,7 +78,7 @@ content:
         additional_links:
           - title: Report (PDF)
             icon: fas fa-file-pdf
-            url: /files/projects/Neural_topology_in_rsc_with_PV_interneurons.pdf
+            url: https://briankwak810.github.io/files/projects/Neural_topology_in_rsc_with_PV_interneurons.pdf
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/briankwak810
@@ -107,7 +107,7 @@ content:
         additional_links:
           - title: Report (PDF)
             icon: fas fa-file-pdf
-            url: /files/projects/Novel_View_Refinement_via_Attention_Fusion.pdf
+            url: https://briankwak810.github.io/files/projects/Novel_View_Refinement_via_Attention_Fusion.pdf
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/briankwak810
@@ -138,7 +138,7 @@ content:
         additional_links:
           - title: Proposal (PDF)
             icon: fas fa-file-pdf
-            url: /files/projects/Noninvasive_optogenetics_with_sonoactive_nanoparticles.pdf
+            url: https://briankwak810.github.io/files/projects/Noninvasive_optogenetics_with_sonoactive_nanoparticles.pdf
         quote: >
           A path toward human-compatible optogenetics that doesn't require a craniotomy.
         description: | # this will include new lines to allow paragraphs

@@ -26,7 +26,7 @@ additional_links:
 
 # About Section
 about_title: " "
-about_profile_image: images/profile.svg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   I'm a B.S. student in **Electrical and Computer Engineering** at **Seoul National University**, currently building **physical AI for surgery** at a stealth startup.
 
@@ -35,7 +35,7 @@ about_content: | # this will include new lines to allow paragraphs
   I'm interested in **physical AI, reinforcement learning, and computational neuroscience** — building scalable neural technologies that work reliably in high-precision, safety-critical settings.
 
 content:
-  - title: Research
+  - title: Projects
     layout: list
     content:
       - layout: left
@@ -99,7 +99,6 @@ content:
       - **SNU Specialized Semiconductor Program Scholarship** (2024).
       - **Certificate of Excellence**, SNU College of Cognitive & Brain Sciences (2024).
       - **1st place**, SNU College of Cognitive Sciences Poster Session (2024).
-      - **1st place**, SNU ECE Non-invasive Surgery Business Competition (2024).
 
   - title: Experience
     layout: text

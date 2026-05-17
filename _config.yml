@@ -39,7 +39,6 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
         title: Fine-tuning Navigation Models with Policy Optimization unveils Internal Planners
         caption: 2025
         additional_links:
@@ -49,7 +48,6 @@ content:
         description: RL training of diffusion-policy navigation models; open-sourced a `Habitat-sim` ROS pipeline.
 
       - layout: left
-        border: weak
         title: Network Topology of Boundary Vector Cells in Mouse Retrosplenial Cortex
         caption: 2024
         additional_links:
@@ -59,7 +57,6 @@ content:
         description: Contrastive learning + TDA over calcium imaging. **1st place**, SNU College of Cognitive Sciences Poster Session.
 
       - layout: left
-        border: weak
         title: Novel View Refinement via Attention Fusion
         caption: 2024
         additional_links:
@@ -72,13 +69,11 @@ content:
         description: Open-source novel view synthesis via attention fusion across a diffusion backbone (SV3D baseline).
 
       - layout: left
-        border: weak
         title: "IMG-PFGM: Diffusion Models as Image-Charge Models"
         caption: 2023–2024
         description: Reinterpreting diffusion models as minimizing electrostatic energy between two charge distributions.
 
       - layout: left
-        border: weak
         title: Non-invasive Optogenetics with Ultrasonic Waves & Sonoactive Nanoparticles
         caption: 2023–2024
         additional_links:
@@ -88,7 +83,6 @@ content:
         description: A non-invasive optogenetics approach. **1st place**, SNU ECE Non-invasive Surgery Business Competition.
 
       - layout: left
-        border: weak
         title: "ROK MND Startup Competition: Mango · POLARIS · Milimeter"
         caption: 2025
         additional_links:
@@ -97,18 +91,44 @@ content:
             url: https://github.com/briankwak810
         description: Group lead for three projects ([Mango](https://briankwak810.github.io/files/projects/Mango.pdf) · [POLARIS](https://briankwak810.github.io/files/projects/Polaris.pdf) · [Milimeter](https://briankwak810.github.io/files/projects/Milimeter.pdf)). **Chief of Naval Officers Award** (Top 1% of 440 teams).
 
-  - title: Background
+  - title: Honors & Awards
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Education.** Seoul National University, B.S. in ECE (2022–2027, GPA 4.14/4.30). Seoul Science High School, 31st class (2019–2022).
+      - **Chief of Naval Officers Award**, ROK MND Startup Competition (2025) — Top 1% of 440 teams.
+      - **Presidential Science Scholarship**, Korea Student Aid Foundation (2022).
+      - **SNU Specialized Semiconductor Program Scholarship** (2024).
+      - **Certificate of Excellence**, SNU College of Cognitive & Brain Sciences (2024).
+      - **1st place**, SNU College of Cognitive Sciences Poster Session (2024).
+      - **1st place**, SNU ECE Non-invasive Surgery Business Competition (2024).
 
-      **Experience.** Stealth Startup — Physical AI for Surgery (2026–). ROK Army, Signals Specialist (2024–2026). SNU Computational Neuroscience Lab (2024). SNU Computer Vision Lab (2023–2024). Sigma Intelligence, Frontend Lead (2022–2023).
+  - title: Experience
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Stealth Startup** — Physical AI for Surgery (2026–).
+      - **Republic of Korea Army** — Signals Specialist, Defence Security Agency (2024–2026).
+      - **SNU Computational Neuroscience Lab** — Research Intern, advised by Prof. Jeehyun Kwag (2024).
+      - **SNU Computer Vision Lab** — Research Intern, advised by Prof. Bohyung Han (2023–2024).
+      - **Sigma Intelligence** — Frontend Team Lead (2022–2023).
 
-      **Awards.** Chief of Naval Officers Award, ROK MND Startup Competition (2025) · Presidential Science Scholarship (2022) · SNU Specialized Semiconductor Scholarship (2024) · Certificate of Excellence, SNU College of Cognitive & Brain Sciences (2024).
+  - title: Education
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Seoul National University** — B.S. in Electrical & Computer Engineering (2022–2027, expected). GPA 4.14 / 4.30.
+      - **Seoul Science High School**, 31st class (2019–2022). GPA 4.23 / 4.30, admitted one year early.
 
-      **Service.** Student Volunteer, *CoRL 2025*. Lead Organizer, 24w GongDream & 23s SNU Engineering Contests (SNU SENS). STEM Educator, SNU SENS Outreach.
+  - title: Service & Outreach
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **CoRL 2025** — Student Volunteer (selected 60 of all applicants).
+      - **24w GongDream Engineering Contest** — Lead Organizer (SNU SENS, funded by DB Group & SNU College of Engineering).
+      - **23s SNU Engineering Contest** — Lead Organizer (SNU SENS).
+      - **SNU SENS Engineering Outreach** — STEM Educator (2023).
 
-      **Skills.** Python · C++ · Java · Svelte · English (TOEFL 112/120, TOEIC 985/990) · Korean (native).
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Programming.** Python · C++ · Java · Svelte.
+      - **Languages.** English (TOEFL 112/120, TOEIC 985/990) · Korean (native).
 
 # Footer
 footer_show_references: false

@@ -28,7 +28,7 @@ additional_links:
 about_title: " "
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  I'm a B.S. student in **Electrical and Computer Engineering** at **Seoul National University**, currently building **physical AI for surgery** at a stealth startup.
+  I'm a B.S. student in **Electrical and Computer Engineering** at **Seoul National University**, currently building **physical AI for surgery** at a stealth startup with prof. [Joseph Lim](https://clvrai.com/web_lim/).
 
   Previously, I was a research intern at the [SNU Computational Neuroscience Lab](https://sites.google.com/snu.ac.kr/snucnl/home) under Prof. Jeehyun Kwag, and at the [SNU Computer Vision Lab](https://cv.snu.ac.kr/) under Prof. Bohyung Han.
 
